@@ -1,4 +1,12 @@
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
     <?php
     $N1 = $_POST["N1"];
     $N2 = $_POST["N2"];
@@ -12,7 +20,7 @@
     $N10 = $_POST["N10"];
 
 
-    if ($N1 == 2) {
+    if ($N1 == "2003") {
         $i++;
     }
     if ($N2 == 4) {
@@ -39,7 +47,7 @@
     if ($N9 == 4) {
         $i++;
     }
-    if ($N10 == 1) {
+    if ($N10 == "Что за вопрос? Конечно хочу!") {
         $i++;
     }
     if ($i >= 5) {
@@ -47,3 +55,6 @@
     } else {
         echo "<h1>Тест завален!!!<h1>";
     }
+?>
+    </body>
+    </html>
