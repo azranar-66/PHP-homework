@@ -1,0 +1,163 @@
+:root {
+    --filter: drop-shadow(1px 1px 1px rgb(163, 162, 162));
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: "Ranchers", cursive;
+    background: url(https://wallbox.ru/resize/1920x1080/wallpapers/main/201239/tekstury-55bd7398ebd3.jpg);
+    padding: 100px 0;
+    filter: var(--filter);
+    background-repeat: round;
+}
+
+.container {
+    width: 800px;
+    min-height: 500px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background: #fff;
+    filter: var(--filter);
+}
+
+.header {
+    display: flex;
+    height: 150px;
+    filter: var(--filter);
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://img4.goodfon.ru/wallpaper/nbig/8/9d/tekstura-fon-oboi-detskaia-zaitsy-morkovka-babochki.jpg)
+        no-repeat center center/cover;
+    color: #fff;
+    margin-right: 10px;
+    filter: var(--filter);
+}
+
+.title-block::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: var(--filter);
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    filter: var(--filter);
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://sun9-3.userapi.com/impg/9_GmjoletPPuiCa_T_YiXpzoK827l92zsQCz9A/hLkIKTwNdVM.jpg?size=1080x1080&quality=96&proxy=1&sign=4f503010df5ef3680be363f2e16d03ce)
+        no-repeat center center/cover;
+    filter: var(--filter);
+}
+
+.nav {
+    filter: var(--filter);
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(197, 197, 197);
+    margin: 10px 0;
+    filter: var(--filter);
+}
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #d1d1d1;
+    transition: background 0.3s ease;
+    filter: var(--filter);
+}
+
+.nav li a:hover {
+    background: rgb(133, 133, 133);
+    filter: var(--filter);
+}
+
+.content-wrapper {
+    display: flex;
+    filter: var(--filter);
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+    filter: var(--filter);
+    font-size: 22px;
+}
+.content p {
+    line-height: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    filter: var(--filter);
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    filter: var(--filter);
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+.content img {
+    padding: 10px 0;
+    transition: top 1s ease-out 0.5s;
+    cursor: pointer;
+    filter: var(--filter);
+}
+
+.content img:hover {
+    transform: rotate3d(2, -1, -1, -0.2turn);
+}
+
+@keyframes sunn {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes work {
+    from {
+        opacity: 1;
+    }
+    to {
+        
+
+        opacity: 0.4;
+    }
+}
